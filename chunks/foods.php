@@ -1,4 +1,3 @@
-
 <?php
 
 require('backends/connection-pdo.php');
@@ -11,16 +10,13 @@ if (isset($_REQUEST['id'])) {
 } else {
 
 	$sql = 'SELECT * FROM food';
-
 }
 
 $query  = $pdoconn->prepare($sql);
 $query->execute();
 $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 
-
-
-?>
+?>         
 
 
 <section class="fcategories">

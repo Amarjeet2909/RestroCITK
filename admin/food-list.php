@@ -17,8 +17,6 @@ $query  = $pdoconn->prepare($sql);
 $query->execute();
 $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 
-
-
 ?>
 						
 

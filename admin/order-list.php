@@ -48,7 +48,7 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
               <th>Timestamp</th>
           </tr>
         </thead>
-
+              
         <tbody>
           <?php
 
